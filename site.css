@@ -6,10 +6,6 @@ body{
 .absolute{
     border:2px solid black ;
      background:green;
-     font-size: 50px;
-     color: white;
-     font-weight:200;
-     font-family: Arial, Helvetica, sans-serif;
      height: 200px;
      width: 200px;
      position:absolute;
@@ -19,13 +15,8 @@ body{
 .fixed{
     border:2px solid black ;
     background: black;
-    font-size: 50px;
-     color: white;
-     font-weight:200;
-     font-family: Arial, Helvetica, sans-serif;
     height: 200px;
     width: 200px;
-    font-size: 50px;
     /* position: fixed; */
     left: 100px;
     bottom: 100px;
@@ -34,10 +25,6 @@ body{
 .static{
     border:2px solid black ;
     background: red;
-    font-size: 50px;
-    color: white;
-    font-weight:200;
-    font-family: Arial, Helvetica, sans-serif;
     height: 200px;
     width: 400px;
     font-size: 50px;
@@ -55,10 +42,6 @@ body{
     border:2px solid black ;
     font-size: 50px;
     background: purple;
-    font-size: 50px;
-     color: white;
-     font-weight:200;
-     font-family: Arial, Helvetica, sans-serif;
     height: 400px;
     width: 500px;
     position: relative;
@@ -69,10 +52,6 @@ body{
     border:2px solid black ;
     font-size: 50px;
     background: pink;
-    font-size: 50px;
-     color: white;
-     font-weight:200;
-     font-family: Arial, Helvetica, sans-serif;
     height: 400px;
     width: 500px;
     position: sticky;
@@ -86,4 +65,10 @@ body{
     width: 500px;
     /* position: static; */
     border:2px solid black ;
+}
+.text {
+    font-size: 50px;
+     color: white;
+     font-weight:200;
+     font-family: Arial, Helvetica, sans-serif;
 }
