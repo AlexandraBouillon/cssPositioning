@@ -5,7 +5,7 @@ body{
 }
 .absolute{
     border:2px solid black ;
-     background:blue;
+     background:green;
      font-size: 50px;
      color: white;
      font-weight:200;
@@ -14,13 +14,11 @@ body{
      width: 200px;
      position:absolute;
      right: 100px;
-
-
 }
 
 .fixed{
     border:2px solid black ;
-    background: green;
+    background: black;
     font-size: 50px;
      color: white;
      font-weight:200;
@@ -43,13 +41,12 @@ body{
     height: 200px;
     width: 400px;
     font-size: 50px;
-/* position:; */
-
+    /* position:static; */
 }
 
 .absolute-container{
     border:2px solid black ;
-    background: pink;
+    background: blue;
     height: 400px;
     width: 500px;
     position: relative;
@@ -66,12 +63,12 @@ body{
     width: 500px;
     position: relative;
     top:100px;
-    right: -100px;
+    right: -300px;
 }
 .sticky{
     border:2px solid black ;
     font-size: 50px;
-    background: lightblue;
+    background: pink;
     font-size: 50px;
      color: white;
      font-weight:200;
@@ -84,9 +81,9 @@ body{
 
 }
 .big{
-    background: black;
-    height: 4000px;
+    background: lightblue;
+    height: 800px;
     width: 500px;
-    position: static;
+    /* position: static; */
     border:2px solid black ;
 }
